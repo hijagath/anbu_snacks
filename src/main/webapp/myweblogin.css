@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.set{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+    margin-top: 9%;
+    font: 'poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+.logo{
+    width: 35%;
+    height: 450px;
+    background-color: #041253;
+
+}
+img{
+    width: 80%;
+    height: auto;
+    margin-top: 38%;
+    margin-left: 9%;
+}
+.set1{
+    margin-left: 46.7%;
+    padding-top:  0%;
+    font: 'poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+.user{
+    width: 35%;
+    height: 450px;
+    background-color: #DBDADA;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    margin-left: 46%;
+    margin-top: 10%;
+}
+.email{
+    margin-left: 36%;
+    margin-top: 10%;
+}
+.emaillogin{
+    margin-left: 29.5%;
+    margin-top: 5%;
+    width: 40%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+.pass{
+    
+    margin-left: 36%;
+    padding-top: 30px;
+}
+.passlogin{
+    margin-left: 29.5%;
+    margin-top: 5%;
+    width: 40%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+.submit{
+    margin-top: 10%;
+    width: 20%;
+    margin-left: 41%;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sign_up{
+    margin-top: 10%;
+    margin-left: 27%;
+}
+.invalidmail{
+    color: red;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.invalidpass{
+    color: red;
+    margin-left: 40%;
+    margin-top: 1%;
+
+}

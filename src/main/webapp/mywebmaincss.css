@@ -1,0 +1,134 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    font: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0,  0.2);
+    background: #041253;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 20%;
+    margin-left: 30px;
+}
+.logout{
+    width: 70px;
+    margin-left: 50px;
+    height: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+img.cart{
+    width: 30px;
+    height: 30px;
+    margin-left:370px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.nav-middle .search-box{
+    border-radius: 25px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border-radius: 25px;
+    height: 30px;
+    background-image: url(webcontent/search.png);
+    background-repeat: no-repeat;
+    background-position: 370px;
+    background-size: 15px;
+    text-align: center;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+body{
+    background-image: url(webcontent/Wave.svg);
+    background-attachment: fixed;
+}
+.mainimg{
+    margin-top: 160px;
+    margin-left: 5%;
+    width: 20%;
+    height: 20%;
+
+}
+.top1{
+    display: flex;
+    flex-direction: row;
+}
+.slogan{
+    margin-left: 28%;
+    margin-top: 40px;
+    font-family: "Georgia",Serif;
+    color:   #1c4a4a
+    ;
+}
+.interior{
+    margin-top: 6%;
+    margin-left: 8%;
+
+}
+.pd{
+    cursor: pointer;    
+
+}
+.oo{
+margin-top: 40px;
+cursor: pointer;
+}
+.sl{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.pdimg{
+    width: 30px;
+    height: 30px;
+}
+.ooimg{
+    width: 30px;
+    height: 30px;
+}
+.slimg{
+    width: 30px;
+    height: 30px;
+}
+.shiping{
+    margin-left: 43%;
+    margin-top: 8px;
+}
+.cu{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.cuimg{
+    width: 30px;
+    height: 30px;
+}
+.main1{
+    width: 20%;
+    height: 20%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
